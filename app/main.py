@@ -1,6 +1,7 @@
 class Cargo:
     def __init__(self, weight: int) -> None:
         self.weight = weight
+
 class BaseRobot:
     def __init__(self, name: str, weight: int, coords=None):
         self.name = name
